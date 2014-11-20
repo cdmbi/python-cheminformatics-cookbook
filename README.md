@@ -1,4 +1,4 @@
-python-cheminfomatics-cookbook
-==============================
+Python cookbook for cheminformatics
+===================================
 
 Recipes for cheminfomatics with Python

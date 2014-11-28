@@ -1,5 +1,10 @@
 #!/usr/bin/env python
-'''Description'''
+'''The script parses values from data downloaded from APD website.
+
+Please refer to the cookbook for how to download data automatically.
+
+'''
+
 import sys
 import re
 import csv

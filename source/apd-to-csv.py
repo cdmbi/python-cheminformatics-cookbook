@@ -22,6 +22,8 @@ def main():
         # write values in CSV format
         writer = csv.writer(sys.stdout, 'excel-tab')
         other_values[-6] = int(other_values[-6])  # total charge
+
+        # write all values (except a molecular weight) in CSV format
         writer.writerows([aa_compositions + other_values[:-3] +
                                         other_values[-2:] + bohman])
 
